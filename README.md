@@ -10,7 +10,7 @@
 - [x] Create a new Vite project (`npm create vite@latest factory-flow -- --template react-ts`)
 - [x] Install deps (`npm install`)
 - [x] Run dev server once to confirm it works (`npm run dev`)
-- [ ] Delete boilerplate UI and leave a clean `<App />` with “Factory Flow” text
+- [x] Delete boilerplate UI and leave a clean `<App />` with “Factory Flow” text
 
 ---
 

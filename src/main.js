@@ -2,6 +2,7 @@ import './style.css'
 import javascriptLogo from './javascript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.js'
+import {drawChart} from "./chart.js";
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -18,7 +19,9 @@ document.querySelector('#app').innerHTML = `
     <p class="read-the-docs">
       Click on the Vite logo to learn more
     </p>
+    <p id="chart1"></p>
   </div>
 `
 
 setupCounter(document.querySelector('#counter'))
+drawChart();
