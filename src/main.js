@@ -5,6 +5,9 @@ import { setupCounter } from './counter.js'
 import {drawChart} from "./chart.js";
 
 document.querySelector('#app').innerHTML = `
+  <div class="back-button">
+    <a href="https://jordanschnur.com">← Back</a>
+  </div>
   <div>
     <a href="https://vite.dev" target="_blank">
       <img src="${viteLogo}" class="logo" alt="Vite logo" />
