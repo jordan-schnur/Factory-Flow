@@ -149,3 +149,4 @@ When these are checked, you officially have a working idle factory game MVP. ðŸŽ
 - `npm run build` â€“ confirm the static bundle compiles locally.
 - Push to `main` to trigger `.github/workflows/deploy.yml`, which publishes `dist` to GitHub Pages under `https://jordanschnur.com/factory-flow`.
 - After the workflow succeeds, verify the live site loads assets with the `/factory-flow/` base and that the back button returns to `https://jordanschnur.com`.
+Deploy
